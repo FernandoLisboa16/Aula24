@@ -1,0 +1,19 @@
+=== INÍCIO DOS TESTES DA API DE FROTAS ===
+
+--- 1. Cadastrando o primeiro veículo ---
+{"id":7,"placa":"DEF-5678","montadora":"Volvo","modelo":"FH 540","status":"DISPONIVEL"}
+
+
+--- 2. Cadastrando o segundo veículo ---
+{"id":8,"placa":"GHI-9012","montadora":"Volkswagen","modelo":"Meteor 28.460","status":"DISPONIVEL"}
+
+
+--- 3. Atualizando o status do veículo ID 3 ---
+{"mensagem":"Status atualizado com sucesso!","veiculo":{"id":3,"placa":"DEF-5678","montadora":"Volvo","modelo":"FH 540","status":"EM_ROTA"}}
+
+
+--- 4. Deletando o veículo ID 4 ---
+{"erro":"Veiculo nao encontrado."}
+
+
+=== FIM DOS TESTES CRUD ===
