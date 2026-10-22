@@ -1,5 +1,6 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 # URL base da API
 URL="http://localhost:3012/api/v1/veiculos"
 LOG_FILE="auditoria_final.log"
@@ -46,4 +47,17 @@ echo -e "\n\n" >> "$LOG_FILE"
 
 echo "=== FIM DOS TESTES CRUD ===" >> "$LOG_FILE"
 
-echo "Script executado com sucesso! Os logs foram salvos em '$LOG_FILE'."
+#para caso ter problemas para apagar IDs
+#curl -s -X DELETE http://localhost:3005/api/v1/veiculos/13
+#curl -s -X DELETE http://localhost:3005/api/v1/veiculos/12
+#curl -s -X DELETE http://localhost:3005/api/v1/veiculos/11
+#curl -s -X DELETE http://localhost:3005/api/v1/veiculos/10
+#curl -s -X DELETE http://localhost:3005/api/v1/veiculos/9
+#curl -s -X DELETE http://localhost:3005/api/v1/veiculos/8
+#curl -s -X DELETE http://localhost:3005/api/v1/veiculos/7
+#curl -s -X DELETE http://localhost:3005/api/v1/veiculos/6
+#curl -s -X DELETE http://localhost:3005/api/v1/veiculos/5
+#curl -s -X DELETE http://localhost:3005/api/v1/veiculos/4
+#curl -s -X DELETE http://localhost:3005/api/v1/veiculos/3
+#curl -s -X DELETE http://localhost:3005/api/v1/veiculos/2
+#curl -s -X DELETE http://localhost:3005/api/v1/veiculos/1
